@@ -1,0 +1,1070 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>แผนพัฒนารายบุคคล (Individual Development Plan - IDP)</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Google Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+          WebFont.load({
+            google: {"families":["Montserrat:400,500,600,700","Noto+Sans:400,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+          });
+        </script>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="assets/vendors/css/base/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="assets/vendors/css/base/elisyam-1.5.min.css">-->
+        <link rel="stylesheet" href="assets/vendors/css/base/elisyam-1.5.css">-
+        <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+        <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+        
+</head>
+
+ <body id="page-top">
+        <!-- Begin Preloader -->
+        <div id="preloader">
+            <div class="canvas">
+                <img src="assets/img/logo.png" alt="logo" class="loader-logo">
+                <div class="spinner"></div>   
+            </div>
+        </div>
+        <!-- End Preloader -->
+        <div class="page">
+            <!-- Begin Header -->
+            <header class="header">
+                <nav class="navbar fixed-top">         
+                    <!-- Begin Search Box-->
+
+                    <!-- End Search Box-->
+                    <!-- Begin Topbar -->
+                    <div class="navbar-holder d-flex align-items-center align-middle justify-content-between">
+                        <!-- Begin Logo -->
+                        <div class="navbar-header">
+                            <a href="db-default.html" class="navbar-brand">
+                                <div class="brand-image brand-big">
+                                    <img src="assets/img/logo-big.png" alt="logo" class="logo-big">
+                                </div>
+                                <div class="brand-image brand-small">
+                                    <img src="assets/img/logo.png" alt="logo" class="logo-small">
+                                </div>
+                            </a>
+                            <!-- Toggle Button -->
+                            <a id="toggle-btn" href="#" class="menu-btn active">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                            <!-- End Toggle -->
+                        </div>
+                        <!-- End Logo -->
+                        <!-- Begin Navbar Menu -->
+                        <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center pull-right">
+                            <!-- Search -->
+                  
+                            <!-- End Search -->
+
+                            <!-- User -->
+                            <li class="nav-item dropdown"><a id="user" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><img src="assets/img/avatar/avatar-01.jpg" alt="..." class="avatar rounded-circle"></a>
+                                <ul aria-labelledby="user" class="user-size dropdown-menu">
+                                    <li class="welcome">
+                                        <a href="#" class="edit-profil"><i class="la la-gear"></i></a>
+                                        <img src="assets/img/avatar/avatar-01.jpg" alt="..." class="rounded-circle">
+                                    </li>
+                                    <li>
+                                        <a href="pages-profile.html" class="dropdown-item"> 
+                                            Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="app-mail.html" class="dropdown-item"> 
+                                            Messages
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item no-padding-bottom"> 
+                                            Settings
+                                        </a>
+                                    </li>
+                                    <li class="separator"></li>
+                                    <li>
+                                        <a href="pages-faq.html" class="dropdown-item no-padding-top"> 
+                                            Faq
+                                        </a>
+                                    </li>
+                                    <li><a rel="nofollow" href="pages-login.html" class="dropdown-item logout text-center"><i class="ti-power-off"></i></a></li>
+                                </ul>
+                            </li>
+                            <!-- End User -->
+                            <!-- Begin Quick Actions -->
+                           <!-- <li class="nav-item"><a href="#off-canvas" class="open-sidebar"><i class="la la-ellipsis-h"></i></a></li>-->
+                            <!-- End Quick Actions -->
+                        </ul>
+                        <!-- End Navbar Menu -->
+                    </div>
+                    <!-- End Topbar -->
+                </nav>
+            </header>
+            <!-- End Header -->
+            <!-- Begin Page Content -->
+            <div class="page-content d-flex align-items-stretch">
+                <div class="default-sidebar">
+                    <!-- Begin Side Navbar -->
+                    <nav class="side-navbar box-scroll sidebar-scroll">
+                        <!-- Begin Main Navigation -->
+                        <ul class="list-unstyled">
+                            <li><a href="#dropdown-db" aria-expanded="false" data-toggle="collapse"><i class="la la-tachometer"></i><span>Dashboard</span></a>
+                                <ul id="dropdown-db" class="collapse list-unstyled pt-0">
+ 									<li class="active"><a href="#"><i class="ion ion-social-bitcoin-outline"></i>ภาพรวม</a></li>   
+                                </ul>
+                            </li>
+                            <li><a href="#dropdown-order" aria-expanded="false" data-toggle="collapse"><i class="la la-newspaper-o"></i><span>แผนพัฒนา IDP</span></a>
+                                <ul id="dropdown-order" class="collapse list-unstyled pt-0">
+                           		    <li><a href="create_order.html"><i class="la la-puzzle-piece"></i>เพิ่มแผนพัฒนา IDP</a></li>
+                                    <li><a href="orderlist.html"><i class="la la-list"></i>รายการแผน IDP</a></li>
+                                </ul>
+                            </li>
+                        <!-- End Main Navigation -->
+						</ul>
+                    </nav>
+                    <!-- End Side Navbar -->
+                </div>
+                <!-- End Left Sidebar -->
+                <div class="content-inner">
+                    <div class="container-fluid">
+
+                        
+                        <div class="row">
+                            <div class="page-header">
+	                            <div class="d-flex align-items-center">
+	                                <h2 class="page-header-title">แผนพัฒนารายบุคคล (Individual Development Plan - IDP)</h2>
+	                                <div>
+			                            <ul class="breadcrumb">
+			                                <li class="breadcrumb-item"><a href="dashboard.html"><i class="ti ti-home"></i></a></li>
+			                                <li class="breadcrumb-item"><a href="#">แผนพัฒนา IDP</a></li>
+			                                <li class="breadcrumb-item active">รายการแผน IDP</li>
+			                                
+			                                <!--<li class="breadcrumb-item active">Widgets</li>-->
+			                            </ul>
+	                                </div>
+	                            </div>
+                            </div>
+                        </div>
+                        
+                        <!-- End Page Header -->
+                        
+                           <div class="row flex-row">
+                                 
+                            <div class="col-xl-9 col-md-10 col-sm-10">
+                                  <div class="widget has-shadow">
+                                    <div class="widget-header bordered no-actions d-flex align-items-center">
+                                        <h4>1. แผนรายงานตนเอง </h4>
+                                    </div>
+                                    <div class="widget-body">
+										<div class="row">
+											<div class="col-xl-12">
+											<input type="hidden" id="hidEmpId" name="hidEmpId" class="form-control" >
+											</div>
+										</div>
+
+										<div class="form-group row d-flex align-items-center mb-12">
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >
+											  ชื่อ 
+											</div>
+											<div class="col-lg-4" >
+												นายกันตินันท์  
+											</div>
+											<div class="col-lg-1 form-control-label d-flex justify-content-lg-end" > นามสกุล</div>
+											<div class="col-lg-4" >
+												มากมี
+											</div>
+										</div>
+										<div class="form-group row d-flex align-items-center mb-12">
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >ตำแหน่ง </div>
+											<div class="col-lg-6" >
+												นักวิชาการคอมพิวเตอร์
+											</div>
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >อายุงาน </div>
+											<div class="col-lg-2" >
+												<div>10 ปี</div>
+											</div>
+										</div>
+                                   		<div class="form-group row d-flex align-items-center mb-12">
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >ประเภท</div>
+											<div class="col-lg-4" >
+												พนักงานสายบริการ
+											</div>
+											<div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >รหัสอาจารย์/เจ้าหน้าที่ </div>
+											<div class="col-lg-2" >
+												<div>ฺBM025</div>
+											</div>
+										</div>
+                                        <div class="form-group row d-flex align-items-center mb-12">
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >คุณวุฒิ </div>
+											<div class="col-lg-4" >
+												ปริญญาโท (วท.ม.เทคโนโลยีสารสนเทศ)
+											</div>
+											<div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >สถานภาพงาน </div>
+											<div class="col-lg-2" >
+												<div>ฺปฏิบัติงาน</div>
+											</div>
+										</div>
+                                        <div class="form-group row d-flex align-items-center mb-12">
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >สังกัด </div>
+											<div class="col-lg-4" >
+												 ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์
+											</div>
+											<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >หน่วยงาน </div>
+											<div class="col-lg-4" >
+												<div>ฺคณะวิศวกรรมศาสตร์</div>
+											</div>
+										</div>
+                                    </div>
+                                  </div>
+                            </div>
+                            
+                            <div class="col-xl-3 col-md-2 col-sm-2">
+                                   <div class="widget widget-16 has-shadow">
+                                    <div class="widget-body">
+                                        <div class="row">
+                                            <div class="col-xl-8 d-flex flex-column justify-content-center align-items-center">
+                                                <div class="counter">19,500</div>
+                                                <div class="total-views text-center">งปมที่ต้องการสนับสนุน</div>
+                                            </div>
+                                            <div class="col-xl-4 d-flex justify-content-center align-items-center">
+         										  <img src="assets/img/icon/500px-Emblem-money.svg_.png" class="img-thumbnail" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+                            </div>
+                        </div>
+                        
+                        
+                       <div class="row flex-row">
+                                 
+                            <div class="col-xl-12 col-md-12 col-sm-12">
+                                  <div class="widget has-shadow">
+                                    <div class="widget-header bordered no-actions d-flex align-items-center">
+                                        <h4>2. แผนกิจกรรมในการปฏิบัติงาน </h4>
+                                    </div>
+                                    <div class="widget-body">
+
+	                                   <div class="table-responsive table-scroll">
+                                            <table id="tbList" class="table table-hover mb-0">
+                                                <thead>
+                                                    <tr>
+														<th>NO</th>
+                                                        <th>รายการ</th>
+                                                        <th>พันธกิจ</th>
+                                                        <th>ช่วงเวลา</th>
+                                                        <th><span style="width:100px;">งบประมาณ</span></th>
+                                                        <!--<th>ราคา</th>-->
+                                                        <th>กิจกรรมย่อย</th>
+                                                        <th>รายละเอียด</th>
+                                                       
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><span class="text-primary">1</span></td>
+                                                        <td>ทำวีดิทัสน์เผยแพร่โครงการ EECON-43</td>
+                                                        <td>การบริหารจัดการ</td>
+                                                        <td>มิถุนายน 2562</td>
+                                                        <td>5,000</td>
+                                                        <td>3</td>
+                                                        <td class="td-actions"><a href="#" onClick="loadPlan(1)" data-toggle="modal" data-target="#customerDetail-modal">
+                                                        <i class="ion ion-clipboard"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="text-primary">2</span></td>
+                                                        <td>ทำวิจัยสถาบัน เพื่อขอตำแหน่งชำนาญการ</td>
+                                                        <td>การวิจัย</td>
+                                                        <td>งปม. 2563</td>
+                                                        <td>10,000</td>
+                                                        <td>5</td>
+                                                        <td class="td-actions"><a href="#" onClick="loadPlan(2)" data-toggle="modal" data-target="#customerDetail-modal">
+                                                        <i class="ion ion-clipboard"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="text-primary">3</span></td>
+                                                        <td>จัดทำเอกสารประกอบปฏิบัติการ รายวิชา 305342</td>
+                                                        <td>การผลิตบัณทิต</td>
+                                                        <td>งปม. 2563</td>
+                                                        <td>4,500</td>
+                                                        <td>2</td>
+                                                        <td class="td-actions"><a href="#" onClick="loadPlan(3)" data-toggle="modal" data-target="#customerDetail-modal">
+                                                        <i class="ion ion-clipboard"></i></a></td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div><!--widget-body-->
+                                  </div>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-xl-12">
+
+                            </div>
+                        </div>
+                        <!-- End Row -->
+                        
+                          <!-- Begin Row -->
+                        <div class="row flex-row">
+                            <div class="col-xl-12 col-12">
+
+                        
+                            </div>
+                        </div>
+                        <!-- End Row -->         
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <!-- End Container -->
+                    <!-- Begin Page Footer-->
+                    <footer class="main-footer">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-xl-start justify-content-lg-start justify-content-md-start justify-content-center">
+                                 <p class="text-gradient-02">ระบบจัดการแผนพัฒนารายบุคคลคณะวิศวกรรมศาสตร์</p>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-center">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                      <!--  <a class="nav-link" href="documentation.html">Documentation</a>-->
+                                    </li>
+                                    <li class="nav-item">
+                                    <p class="text-gradient-01">นายกันตินันท์ มากมี</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- End Page Footer -->
+                    <a href="#" class="go-top"><i class="la la-arrow-up"></i></a>
+                    <!-- Offcanvas Sidebar -->
+                  
+                    <!-- End Offcanvas Sidebar -->
+                </div>
+            </div>
+            <!-- End Page Content -->
+        </div>
+        
+        
+
+        <!-- Begin Basic Modal -->
+        <div id="customerDetail-modal" class="modal modal-top fade">
+            <div class="modal-dialog  modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">รายละเอียดแผนกิจกรรม </h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">×</span>
+                            <span class="sr-only">close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                          
+                          <div class="row" >
+                          	  <div class="col-lg-12">
+                          	    <!-- Basic Tabs -->
+                                        <ul class="nav nav-tabs"  role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="i-base-tab-1" data-toggle="tab" href="#i-tab-1" role="tab" aria-controls="i-tab-1" aria-selected="true"><i class="la la-newspaper-o mr-2"></i>ข้อมูลทั่วไป</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <input type="hidden" id="hidFlagClickTab2" class="form-control" value="0">
+                                                <a class="nav-link" id="i-base-tab-2" data-toggle="tab" href="#i-tab-2" role="tab" aria-controls="i-tab-2" aria-selected="false"><i class="ion-clipboard mr-2"></i>กิจกรรมย่อย</a>
+                                            </li>
+                                            <li class="nav-item">
+                                               <input type="hidden" id="hidFlagClickTab3" class="form-control" value="0">
+                                                <a class="nav-link"  id="i-base-tab-3" data-toggle="tab" href="#i-tab-3" role="tab" aria-controls="i-tab-3" aria-selected="false"><i class="ti ti-plus mr-2"></i>เพิ่มกิจกรรมย่อย</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content pt-3">
+                                            <div class="tab-pane fade show active" id="i-tab-1" role="tabpanel" aria-labelledby="i-base-tab-1">
+                                               <!--Start Genaral-->
+											   
+											   <div id="pnlProfileInfo" >
+											   <div class="row" >
+												   <div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >
+													   <h4> ชื่อกิจกรรม </h4>
+												   </div>
+												   <div class="col-lg-8" >
+													   <div id="lblPlanname">-</div>
+												   </div>
+											   </div>
+											   <div class="row" >
+												   <div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >
+													   <h4> สอดคล้องกับพันธกิจ </h4>
+												   </div>
+												   <div class="col-lg-8" >
+													   <div id="lblCategoryName"></div> 
+												   </div>
+											   </div>
+											   <div class="row" >
+												   <div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >
+													   <h4> ช่วงเวลาในดำเนินการ</h4>
+												   </div>
+												   <div class="col-lg-2" >
+													  <div id="lblTimePeriod"></div> 
+												   </div>
+												   <div class="col-lg-3 form-control-label d-flex justify-content-lg-end"   >
+													   <h4> ปีงบประมาณ</h4>
+												   </div>
+												   <div class="col-lg-3" >
+													  <div id="lblBudgetYear">2563</div> 
+												   </div>
+											   </div>
+
+											   
+											   <div class="row" >
+												   <div class="col-lg-4 form-control-label d-flex justify-content-lg-end"   >
+													   <h4> งบประมาณที่ต้องการ </h4>
+												   </div>
+												   <div class="col-lg-2" >
+													  <div id="lblEstimateCost"> </div> 
+													  <input type="hidden" id="hidSumPrice" class="form-control" value="0">
+												   </div>
+											   </div>
+											   
+											   <div class="row" >
+												   <div class="col-lg-4 form-control-label d-flex justify-content-lg-end" >
+													   <h4> มีกิจกรรมย่อย </h4>
+												   </div>
+												   <div class="col-lg-2" >
+													   <div id="lblHasMoreSubPlan"></div> 
+												   </div>
+												  <div class="col-lg-6 form-control-label d-flex justify-content-lg-end " >
+				
+													  	 <button type="button" id="btnEditProfileInfo" class="btn btn-warning ripple mr-1 mb-2" onClick="editProfileInfo()"><i class="la la-edit"></i>แก้ไข</button> 
+														  	<div class="sa-icon sa-success animate" id="iconSaveProfileInfo" style="display:none;">
+																<span class="sa-line sa-tip animateSuccessTip"></span>
+																<span class="sa-line sa-long animateSuccessLong"></span>
+																<div class="sa-placeholder"></div>
+																<div class="sa-fix"></div>
+															</div>
+												   </div>
+											   </div>
+											   
+											   </div>
+											   
+											   	<div class="alert alert-outline-success" role="alert" id="pnlProfileInfoEdit" style="display: none">
+													<div class="form-group row d-flex align-items-center mb-12">
+														<label class="col-lg-2 form-control-label d-flex justify-content-lg-end">ชื่อ </label>
+														<div class="col-lg-4" >
+															<input type="hidden" id="hidPlanId" name="hidPlanId" class="form-control" >
+															<input type="text" id="txtFirstname" class="form-control" placeholder="">
+														</div>
+														 <label class="col-lg-1 form-control-label d-flex justify-content-lg-end"> นามสกุล</label>
+														<div class="col-lg-4" >
+															<input type="text" id="txtLastname" class="form-control" placeholder="">
+														</div>
+													</div>
+										   		    <div class="form-group row d-flex align-items-center mb-12">
+														<label class="col-lg-2 form-control-label d-flex justify-content-lg-end">สอดคล้องกับพันธกิจ </label>
+														<div class="col-lg-2" >
+															<input type="text" class="form-control" id="txtPrephone" placeholder="08x" onkeypress="return isNumber(event)">
+														</div>-
+														<div class="col-lg-3" >
+															<input type="text" class="form-control" id="txtTailphone" placeholder="1234567" onkeypress="return isNumber(event)">
+														</div>
+													</div>
+										   		    <div class="form-group row d-flex align-items-center mb-12">
+														<label class="col-lg-2 form-control-label d-flex justify-content-lg-end">time_period (ถ้ามี)</label>
+														<div class="col-lg-6" >
+															<input type="text" class="form-control" placeholder="" id="txttime_period">
+														</div>
+													</div>
+													<div class="form-group row d-flex align-items-center mb-12">
+														<label class="col-lg-2 form-control-label d-flex justify-content-lg-end">LINE ID (ถ้ามี)</label>
+														<div class="col-lg-4" >
+															<input type="text" class="form-control" placeholder="" id="txtLineID">
+														</div>
+													</div>
+									   		
+									   		        <div class="form-group row d-flex align-items-center mb-12">
+														 <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">ช่องทาง/กลุ่มลูกค้า </label>
+														   <div class="col-lg-4 select mb-2">
+															<select name="cboCustomerGroupEdit" id="cboCustomerGroupEdit" class="custom-select form-control">
+																<option value="na">-- ไม่ระบุ --</option>
+																<option value="website">Website</option>
+																<option value="phone">โทรศัพท์</option>
+																<option value="line">Line</option>
+																<option value="facebook">Facebook</option>
+															</select>
+														  </div>
+													</div> 
+										   		
+										   			<div class="row" >
+										   				<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >
+															ตัวแทนจำหน่าย
+														</div>	
+														<div class="col-lg-2">
+															<div class="custom-control custom-radio styled-radio mb-3">
+																<input type="radio" name="rdoHasMoreSubPlan" id="rdoHasMoreSubPlan1" value="0" checked>
+																<label for="rdoHasMoreSubPlan1">ไม่ใช่</label>
+															</div>
+														</div>
+
+														 <div class="col-lg-2">
+															 <div class="custom-control custom-radio styled-radio mb-3">
+																	<input type="radio" name="rdoHasMoreSubPlan" value="1" id="rdoHasMoreSubPlan2">
+																	<label for="rdoHasMoreSubPlan2">ใช่</label>
+															 </div>
+                                              			 </div>
+										   				<div class="col-lg-6 form-control-label d-flex justify-content-lg-end" >
+															 <button type="button" id="btnUpdateProfileInfo" class="btn btn-info mr-1 mb-2" onClick="updateProfileInfo()"><i class="la la-refresh"></i>ปรับปรุงข้อมูล</button>
+														</div>
+											   		</div>
+												</div>
+
+												<div class="alert alert-outline-success" role="alert" id="pnlAddress">
+
+												   <div class="row" >
+													   <div class="col-lg-10">
+															<strong>รายละเอียด </strong><div id="lblPlanDetail"> - </div>
+													   </div>
+													   <div class="col-lg-2 form-control-label d-flex justify-content-lg-end"  >
+														  <button type="button" id="btnEditAddress" class="btn btn-warning ripple mr-1 mb-2" onClick="editAddress()"><i class="la la-edit"></i>แก้ไข</button> 
+														  	<div class="sa-icon sa-success animate" id="iconSaveAddress" style="display:none;">
+																<span class="sa-line sa-tip animateSuccessTip"></span>
+																<span class="sa-line sa-long animateSuccessLong"></span>
+																<div class="sa-placeholder"></div>
+																<div class="sa-fix"></div>
+															</div>
+													   </div>
+
+												   </div>
+											   
+
+												</div>
+												
+											   	<div class="alert alert-outline-success" role="alert" id="pnlAddressEdit" style="display: none">
+													<div class="row" >
+													    <div class="col-lg-2 form-control-label d-flex justify-content-lg-end"   >
+															ที่อยู่
+														</div>	
+														<div class="col-lg-10" >
+															<input type="text" id="txtPlanDetail" class="form-control" placeholder="">
+														</div>
+											   		</div>
+											   		<div class="row" >
+													    <div class="col-lg-2 form-control-label d-flex justify-content-lg-end"   >
+															จังหวัด
+														</div>	
+														<div class="col-lg-3" >
+															<select name="cboProvince" class="custom-select form-control">
+																<option value="na">-- ไม่ระบุ --</option>
+																<option value="65">พิษณุโลก</option>
+																<option value="62">สุโขทัย</option>
+																<option value="63">ตาก</option>
+															</select>
+														</div>
+								   				    </div>
+									   				<div class="row" >
+										   				<div class="col-lg-2 form-control-label d-flex justify-content-lg-end"  align="right" >
+															อำเภอ
+														</div>	
+														<div class="col-lg-3" >
+														 	<select name="cboAmphur" class="custom-select form-control">
+																<option value="na">-- ไม่ระบุ --</option>
+																<option value="01">เมือง</option>
+																<option value="02">วัดโบสถ์</option>
+																<option value="03">วังทอง</option>
+															</select>
+														</div>
+									   				</div>
+									   				<div class="row" >
+										   				<div class="col-lg-2 form-control-label d-flex justify-content-lg-end"  align="right" >
+															ตำบล
+														</div>	
+														<div class="col-lg-3" >
+															<select name="cboTumbon" class="custom-select form-control">
+																<option value="na">-- ไม่ระบุ --</option>
+																<option value="01">ในเมือง</option>
+																<option value="02">หัวรอ</option>
+																<option value="03">อรัญญิก</option>
+																<option value="04">บ้านคลอง</option>
+																<option value="05">วังหิน</option>
+																<option value="06">ท่าโพธิ์</option>
+																
+															</select>
+														</div>
+										   			</div>
+										   			<div class="row" >
+										   				<div class="col-lg-2 form-control-label d-flex justify-content-lg-end" >
+															รหัสไปรษณีย์
+														</div>	
+														<div class="col-lg-3" >
+															<input type="text" id="txtPostcode" class="form-control" placeholder="">
+														</div>
+										   				<div class="col-lg-7 form-control-label d-flex justify-content-lg-end" >
+															 <button type="button" id="btnUpdateAddress" class="btn btn-info mr-1 mb-2" onClick="updateAddress()"><i class="la la-refresh"></i>ปรับปรุงข้อมูล</button>
+														</div>
+											   		</div>
+												</div>
+												   
+ 
+                                              <!--End Genaral-->
+                                            </div>
+                                            <div class="tab-pane fade" id="i-tab-2" role="tabpanel" aria-labelledby="i-base-tab-2">
+
+                                          		<table class="table table-hover mb-0" id="tbSubPlanDetail">
+													<thead>
+														<tr>
+															<th>ลำดับ</th>
+															<th>หัวข้อ</th>
+															<th>รายละเอียด</th>
+															<th>งบประมาณ</th>
+															<th></th>
+														</tr>
+													</thead>
+													<tbody>
+
+													</tbody>
+												</table>
+                                           		 <div class="alert alert-outline-danger dashed" role="alert" id="pnlConfirmDel" style="display: none;">
+													 คุณยืนยันที่จะลบ <strong> <div id="lblProductDelete"></div>
+													 <input type="hidden" id="hidItemIdDel" class="form-control" value="0">
+													   </strong> 
+													 <button type="button" autofocus id="btnDelOrderItem" class="btn btn-outline-secondary mr-1 mb-2" onClick="noDel()">ไม่</button>
+													 <button type="button" id="btnConfirmRemoveOrderItem" class="btn btn-success ripple mr-1 mb-2" onClick="removeItemConfrim()">ใช่</button>
+												</div>
+                                           
+                                            </div>
+                                            <div class="tab-pane fade" id="i-tab-3" role="tabpanel" aria-labelledby="i-base-tab-3">
+												<div class="row">
+													<div class="col-xl-12">
+													</div>
+												</div>                                           
+                                           
+                                            </div>
+                                        </div>
+                                <!-- End Basic Tabs -->
+                          	  
+							  </div>
+                          </div>
+                         
+                     
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-shadow" data-dismiss="modal" onClick="backTolist()" >ย้อนกลับ</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Basic Modal -->
+       
+       
+
+       
+       
+       
+        <!-- Begin Vendor Js -->
+       
+
+        <script src="assets/vendors/js/base/jquery.min.js"></script>
+        <script src="assets/vendors/js/base/core.min.js"></script>
+
+        
+        <!-- End Vendor Js -->
+        <!-- Begin Page Vendor Js -->
+        <script src="assets/vendors/js/nicescroll/nicescroll.min.js"></script>
+        <script src="assets/vendors/js/owl-carousel/owl.carousel.min.js"></script>
+        <script src="assets/vendors/js/progress/circle-progress.min.js"></script>
+
+        <script src="assets/vendors/js/datatables/datatables.min.js"></script>
+        <script src="assets/vendors/js/datatables/dataTables.buttons.min.js"></script>
+        
+        <script src="assets/vendors/js/datatables/jszip.min.js"></script>
+        <script src="assets/vendors/js/datatables/buttons.html5.min.js"></script>
+        <script src="assets/vendors/js/datatables/pdfmake.min.js"></script>
+        <script src="assets/vendors/js/datatables/vfs_fonts.js"></script>
+        <script src="assets/vendors/js/datatables/buttons.print.min.js"></script>
+        
+        
+        <script src="assets/vendors/js/datepicker/moment.min.js"></script>
+        <script src="assets/vendors/js/datepicker/daterangepicker.js"></script>
+        
+                  
+        <script src="jquery/plugin/cleave.js/cleave.min.js"></script>
+        <script src="jquery/plugin/cleave.js/helper.js"></script>
+        
+        <script src="assets/vendors/js/app/app.min.js"></script>
+        <script type="application/javascript"> 
+		   //------------------- Util ---
+			function formatMoney(n, c, d, t) {
+			  var c = isNaN(c = Math.abs(c)) ? 2 : c,
+				d = d == undefined ? "." : d,
+				t = t == undefined ? "," : t,
+				s = n < 0 ? "-" : "",
+				i = String(parseInt(n = Math.abs(Number(n) || 0).toFixed(c))),
+				j = (j = i.length) > 3 ? j % 3 : 0;
+
+			  return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+			};
+
+			function isNumber(evt) {
+				evt = (evt) ? evt : window.event;
+				var charCode = (evt.which) ? evt.which : evt.keyCode;
+				if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+					return false;
+				}
+				return true;
+			}
+			
+
+		   //-------------------end Util ---
+       </script>
+        
+        <script type="application/javascript">
+			
+			var objRowDelete; // Global variable
+
+			function loadPlan(id){
+				console.log("loadPlan"+id);
+
+				//activaTab('i-tab-1');
+				// simulate json data obj
+				// mockup json obj
+				  deliveryItemObj = [
+					{
+					  "id": 1,
+					  "topic":"ออกแบบ Storyboard",
+					  "detail":"ระดมความคิดสร้างสรรค์ วางแผนการนำเสนอ",
+					  "budget": "0"
+					},
+					{
+					  "id": 2,
+					  "topic":"ถ่ายทำ footage ",
+					  "detail":"จ้างนิสิตช่วยงาน 3 คน มาเป็นทีมงาน",
+					  "budget": "3000"
+					},
+					{
+					  "id": 3,
+					  "topic":"เรียบเรียง และตัดต่อวีดิทัศน์",
+					  "detail":"ซื้อวัสดุ Harddisk พกพาสำหรับเก็บไฟล์วีดิทัศน์",
+					  "budget": "2000"
+					}
+
+				 ]; // fix order_item (current)
+				
+				general_data =[{
+					'plan_id':1,
+					'plan_name':'ทำวีดิทัศน์เผยแพร่โครงการ EECON-43',
+					'category_name':'การบริหารจัดการ',
+					'category_id':5,
+					'time_period':'มิถุนายน 2562',
+					'budget_year':'2562',
+					'estimate_cost':'5000',
+					'customer_group':'line',
+					'payment_method':'collector',//transfer
+					'subplans':1, //มีกิจกรรมย่อย
+					'all_price':'2700',
+					'dc_price':'300',
+					'total_net':'2400',
+					'detail':' การประชุมวิชาการทางวิศวกรรมไฟฟ้า ครั้งที่ 43 หรือ The 41 Electrical Engineering Conference (EECON-43) จะจัดขึ้นในวันที่ 12-14 พฤศจิกายน 2563 จ.พิษณุโลก',
+					'province_id':'65',
+					'amphur_id':'01',
+					'tumbon_id':'06',
+					'postcode':'65000',
+				},
+				{
+					'plan_id':2,
+					'plan_name':'ทำวิจัยสถาบัน เพื่อขอตำแหน่งชำนาญการ',
+					'category_name':'การวิจัย',
+					'category_id':2,
+					'time_period':'งปม. 2563',
+					'budget_year':'2563',
+					'estimate_cost':'10000',
+					'customer_group':'website',
+					'payment_method':'collector',//transfer
+					'subplans':0, //มีกิจกรรมย่อย
+					'detail':'หาโจทย์วิจัยจากงานประจำ ติดต่ออาจารย์ที่ปรึกษา หรือขอปรึกษาหัวหน้าภาคฯ  ฝึกเขียน Proprosal หาแหล่งทุนวิจัย  ทำหนังสือแจ้งคณะ ในการอ้างอิงตำแหน่งชำนาญการ ',
+					'province_id':'65',
+					'amphur_id':'01',
+					'tumbon_id':'06',
+					'postcode':'65000',
+				},
+				{
+					'plan_id':3,
+					'plan_name':'จัดทำเอกสารประกอบปฏิบัติการ รายวิชา 305342 ',
+					'category_name':'การผลิตบัณทิต',
+					'category_id':1,
+					'time_period':'งปม. 2563',
+					'budget_year':'2563',
+					'estimate_cost':'4500',
+					'customer_group':'line',
+					'payment_method':'collector',//transfer
+					'subplans':1, //มีกิจกรรมย่อย
+					'detail':'ปรับปรุงเนื้อหาในเล่มคู่มือปฏิบัติการ จัดหาซอฟต์แวร์ที่ใช้ในการเรียนการสอน ติดตั้งและทดลอง ให้เหมาะสมกับเนื้อหาในทฤษฏี ',
+					'province_id':'65',
+					'amphur_id':'01',
+					'tumbon_id':'04',
+					'postcode':'65000',
+				}
+				]; // for random order
+								
+				persanalData = general_data[id-1];
+				
+				console.log(persanalData);
+				
+				//----------- binding -----------------
+				$("#lblPlanDetail").html(persanalData.detail);
+				
+				
+				//$('#hidFlagClickTab3').val(1);
+				
+				$("#lblPlanname").html(persanalData.plan_name);
+				$("#lblCategoryName").html(persanalData.category_name);
+				$("#lblTimePeriod").html(persanalData.time_period);
+				$("#lblBudgetYear").html(persanalData.budget_year);
+				$("#lblEstimateCost").html(formatMoney(persanalData.estimate_cost));
+				$("#hidSumPrice").val(persanalData.estimate_cost);
+				
+				//lblHasMoreSubPlan ,is_distributors
+				if(persanalData.subplans==1){
+					$("#lblHasMoreSubPlan").html("มี");
+					$('input[name=rdoHasMoreSubPlan][value=1]').prop('checked', true);
+				}else{
+					$("#lblHasMoreSubPlan").html("ไม่มี");
+					$('input[name=rdoHasMoreSubPlan][value=0]').prop('checked', true);
+				}
+				
+				
+				var nameArr = persanalData.plan_name.split(" ");
+				if(nameArr.length==2){
+					 $("#txtFirstname").val(nameArr[0]);
+					 $("#txtLastname").val(nameArr[1]);
+				}
+				$("#hidPlanId").val(persanalData.plan_id);
+				$("#txttime_period").val(persanalData.time_period);
+				$("#txtLineID").val(persanalData.budget_year);
+				
+
+				
+				$("#txtPrephone").val(persanalData.category_name.substring(0, 3));
+				$("#txtTailphone").val(persanalData.category_name.substring(3));
+				
+				$('select[name=cboCustomerGroupEdit]').val(persanalData.customer_group);
+				
+
+				//----------- binding -----------------
+				
+				//----------- binding EditPnl -----------------
+				$('select[name=cboProvince]').val(persanalData.province_id);
+				$('select[name=cboAmphur]').val(persanalData.amphur_id);
+				$('select[name=cboTumbon]').val(persanalData.tumbon_id);
+				$("#txtPlanDetail").val(persanalData.detail);
+				$("#txtPostcode").val(persanalData.postcode);
+				
+				//----------- binding EditPnl -----------------
+				
+				//----------- binding OrderItem ---------------------------/
+				
+				//clear Table
+
+			
+				
+				if($('#hidFlagClickTab2').val()==0){
+					// loadCustomerItem
+					console.log("loadLogDeliveryFail");
+					
+					//var table =document.getElementById("tbLogDeliveryFail");
+					var table = document.getElementById('tbSubPlanDetail').getElementsByTagName('tbody')[0];
+					var total_row=table.rows.length;
+					var row_last=table.rows[table.rows.length-1];
+
+					//console.log(deliveryItemObj.length);
+					
+					for(i=0;i<deliveryItemObj.length;i++){
+						console.log(i);
+						// add tr
+						var total_row=table.rows.length;
+						var row=table.insertRow(total_row);
+						//$(row).css("background-color","#ffffff");
+						$(row).id="row"+deliveryItemObj[i].id;
+						
+						var cell1=row.insertCell(0);
+						var eleSpan= document.createElement("span");
+						$(eleSpan).addClass("text-primary");
+						$(eleSpan).html((i+1)); 
+						cell1.appendChild(eleSpan);
+
+						var cell2=row.insertCell(1); // หัวข้อ
+						cell2.innerHTML =deliveryItemObj[i].topic;
+
+						
+						var cell3=row.insertCell(2); //รายละเอียด
+						cell3.innerHTML =deliveryItemObj[i].detail;
+						
+						var cell4=row.insertCell(3); //รายละเอียด
+						cell4.innerHTML =formatMoney(deliveryItemObj[i].budget);
+						$('<input type="hidden" id="hidEstItemCost'+deliveryItemObj[i].id+'" class="form-control" value="'+deliveryItemObj[i].budget+'">').appendTo(cell4);
+						
+						var cell5=row.insertCell(4);
+						
+						$(cell5).addClass("td-actions");
+
+						$('<a href="#" onClick="editItem('+deliveryItemObj[i].id+')"  ><i class="la la-edit edit"></i></a>').appendTo(cell5);
+						$('<a href="#" onClick="removeItem('+deliveryItemObj[i].id+',this)"   ><i class="la la-close delete"></i></a>').appendTo(cell5);
+						
+					}
+					
+					$('#hidFlagClickTab2').val(1);
+					
+					// afterload set flag=1
+				}else{
+					console.log("loadPlan return.");
+				}
+				
+				
+				
+			}
+			
+			function removeItem(item_id,obj){
+				// remove
+				objRowDelete=(obj.parentNode).parentNode; // set glabal variable
+				console.log("remove :"+objRowDelete.nodeName);
+				
+				//console.log("subject :"+obj.parentNode.previousSibling.previousSibling.previousSibling.innerHTML);
+				//console.log("seq_no :"+obj.parentNode.previousSibling.previousSibling.previousSibling.previousSibling.childNodes[0].innerHTML);
+				//return ;
+
+				//$(objRowDelete).remove(); // row remove
+				// to be continue
+				//console.log(obj.parentNode.previousSibling.previousSibling.previousSibling.previousSibling.innerHTML);
+				subject = obj.parentNode.previousSibling.previousSibling.previousSibling.innerHTML;
+				seq_no = obj.parentNode.previousSibling.previousSibling.previousSibling.previousSibling.childNodes[0].innerHTML;
+				$("#hidItemIdDel").val(item_id); // update del id
+				$("#lblProductDelete").html("รายการที่ "+seq_no+" "+subject);
+				$("#pnlConfirmDel").show();
+				
+				$("#btnDelOrderItem").focus();
+				
+			}
+			
+			function noDel(){
+				//show row del
+				order_item_id=$("#hidItemIdDel").val();
+				$("#pnlConfirmDel").hide();
+				$("#hidItemIdDel").val(0); // reset del id
+				objRowDelete =null
+			}
+			
+			function removeItemConfrim(){
+				//show row del
+				item_del_id=$("#hidItemIdDel").val();
+				//return;
+				
+				
+				old_unit_cost=parseFloat($("#hidEstItemCost"+item_del_id).val());// keep for divide from sumprice
+				console.log("old sum:"+parseFloat($("#hidSumPrice").val()));
+				console.log("remove cost:"+old_unit_cost);
+					
+				old_sum_price = parseFloat($("#hidSumPrice").val());
+				new_sum_price = old_sum_price - old_unit_cost; // remove old unit_cost
+				
+				
+				console.log("new_total_net:"+new_sum_price);
+							
+				$("#hidSumPrice").val(new_sum_price);
+
+				$("#lblEstimateCost").html(formatMoney(new_sum_price));
+
+			
+				// post back to server del
+				
+				//getObjrow for global variable ;use for remove
+				$(objRowDelete).remove(); // row remove
+				
+				$("#pnlConfirmDel").hide();
+				$("#hidItemIdDel").val(0); // reset del id
+			}
+			
+
+			function backTolist(){
+		
+				
+				$("#lblPlanDetail").html("");
+				
+				$('#hidFlagClickTab3').val(0); // set default
+				$('#hidFlagClickTab2').val(0); // set default
+				
+				$("#lblPlanname").html("-"); 
+				$("#lblCategoryName").html("-");
+				$("#lblBudgetYear").html("-");
+
+				$("#lblEstimateCost").html("-");
+				
+				//clear price
+				$("#hidSumPrice").val(0);
+				$("#hidPlanId").val("");
+
+				
+				
+				$('#btnEditAddress').show(); // default
+				
+				//clear btn 
+				$("#btnCancleOrder").removeAttr('disabled');
+				$("#btnConfirmOrder").removeAttr('disabled');
+				
+				//clear rows in table 
+				$("#tbSubPlanDetail").find("tr:gt(0)").remove();
+
+				//clear remove order_item_id
+				$("#hidItemIdDel").val(0);
+				
+				// hide pnlDel
+				$("#pnlConfirmDel").hide();
+				
+				//clear objRawDel
+				objRowDelete=null;
+
+			}
+					
+
+			
+		</script>
+        <!-- End Page Vendor Js -->
+        <script type="application/javascript">
+	  		jQuery(document).ready(function( $ ) {
+				
+
+				$('#tbList').DataTable({
+						"lengthMenu": [
+							[10, 15, 20, -1],
+							[10, 15, 20, "All"]
+						],
+						"order": [
+							[0, "asc"]
+						]
+				
+				});
+				//$('#lblEstimateCost').cleave({ numeral: true, numeralThousandsGroupStyle: 'thousand', autoUnmask: true});
+
+			});
+	    </script>
+	    
+    </body>
+</html>
